@@ -118,7 +118,7 @@ parameters:
   label: 'Output clock'
   dtype: enum
   default: False
-  options: [False, True]
+  options: ['False', 'True']
   option_labels: ['Disable', 'Enable']
   
 - id: use_dac
@@ -234,7 +234,7 @@ templates:
              + ",use_ref_clk=" + '${'$'}{use_ref_clk}'
              + ",ref_clk=" + str(int(${'$'}{ref_clk}))
              + ",in_clk=" + '${'$'}{in_clk}'
-             + ",out_clk=" + str(${'$'}{out_clk})
+             + ",out_clk=" + '${'$'}{out_clk}'
              + ",use_dac=" + '${'$'}{use_dac}'
              + ",dac=" + str(${'$'}{dac})
              + ",xb200=" + '${'$'}{xb200}'
