@@ -10,8 +10,9 @@ GNU Radio source and sink blocks for bladeRF devices.
 
 Build from source
 
-    git clone https://github.com/Nuand/gr-bladeRF.git
+    git clone https://github.com/Vincenque/gr-bladeRF
     cd gr-bladeRF
+    git pull https://github.com/Vincenque/gr-bladeRF.git main-with-fixes 
     mkdir build
     cd build
     cmake ..
