@@ -13,6 +13,7 @@ Build from source
     git clone https://github.com/Vincenque/gr-bladeRF
     cd gr-bladeRF
     git pull https://github.com/Vincenque/gr-bladeRF.git main-with-fixes 
+    git checkout main-with-fixes
     mkdir build
     cd build
     cmake ..
